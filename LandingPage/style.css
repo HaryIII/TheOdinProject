@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 
 
@@ -73,4 +74,6 @@
 .img-holder {
     background-color: lightgrey;
     padding: 120px 200px;
+=======
+>>>>>>> 96281b23b5cb81d5e2eb80c6cf537bc9caa32822
 }
