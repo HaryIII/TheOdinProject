@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
 }
 
 
@@ -60,6 +59,8 @@
 .hero-text {
     font-size: 18px;
     color: #e5e7eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -74,6 +75,112 @@
 .img-holder {
     background-color: lightgrey;
     padding: 120px 200px;
-=======
->>>>>>> 96281b23b5cb81d5e2eb80c6cf537bc9caa32822
+}
+
+
+
+
+.information {
+    height: 35vh;
+}
+
+.information h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.square-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.square-content p {
+    text-align: center;
+    width: 40%;
+}
+
+.square {
+    border: 2px solid #3882f6;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+
+.quote {
+    height: 35vh;
+    background-color: #e5e7eb;
+    position: relative;
+}
+
+.quote p {
+    text-align: inherit;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 50%;
+   font-size: 36px;
+   font-style: italic;
+   font-weight: lighter;
+   color: #1f2937;
+}
+
+strong {
+    position: absolute;
+    top: 75%;
+    left: 70%;
+}
+
+
+
+.cta {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    background-color: #3882f6;
+    height: 100px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+
+.rectangle-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    color: #f9faf8;
+}
+
+
+.cta-btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 3px 20px;
+    border-radius: 5px;
+    border: 2px solid #f9faf8;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
 }
